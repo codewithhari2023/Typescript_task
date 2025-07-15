@@ -18,5 +18,9 @@ class cart {
         return total;
     }
 }
+let cart1=new cart();
+let cartproduct=new product(101,"iphone",40000);
+cart1.AddtoCart(cartproduct)
+console.log(cartproduct.getDetails())
 
 // Task 5

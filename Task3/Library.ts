@@ -1,4 +1,4 @@
-import { Book } from "../Book";
+import {Book} from '../Task3/Book'
 
 export class Library{
     private Books:Book[]=[]

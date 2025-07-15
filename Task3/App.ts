@@ -1,5 +1,5 @@
-import { Book } from "../Book";
-import { Library } from "../Library";
+import { Book } from "../Task3/Book";
+import { Library } from "../Task3/Library";
 
 const myLibrary = new Library();
 const book1 = new Book('The SanAndreas', 'Robert', '9780547928227');
