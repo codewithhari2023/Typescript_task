@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Book_1 = require("./Book");
+var Library_1 = require("./Library");
+var myLibrary = new Library_1.Library();
+var book1 = new Book_1.Book('The Hobbit', 'J.R.R. Tolkien', '9780547928227');
+var book2 = new Book_1.Book('Clean Code', 'Robert Martin', '9780132350884', false);
+myLibrary.addBook(book1);
+myLibrary.addBook(book2);
+myLibrary.listBooks();
+myLibrary.removeBook('9780547928227');
+myLibrary.listBooks();
+// const foundBook = myLibrary.findByISBN('9780132350884');
+// console.log('\nFound book:', foundBook?.getDetails());
